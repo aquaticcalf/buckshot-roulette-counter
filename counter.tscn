@@ -1,0 +1,48 @@
+[gd_scene load_steps=7 format=3 uid="uid://cd70ns27tuu8f"]
+
+[ext_resource type="Script" path="res://bullets.gd" id="1_lh7et"]
+[ext_resource type="Script" path="res://health.gd" id="2_x7wa8"]
+[ext_resource type="Script" path="res://smokes.gd" id="3_oextl"]
+[ext_resource type="Script" path="res://knifes.gd" id="4_capsw"]
+[ext_resource type="Script" path="res://beers.gd" id="5_kihyh"]
+[ext_resource type="Script" path="res://maginfying-glass.gd" id="6_lrur8"]
+
+[node name="counter" type="Node2D"]
+
+[node name="HBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 16.0
+offset_top = 13.0
+offset_right = 386.0
+offset_bottom = 187.0
+
+[node name="health" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "health : a - b"
+script = ExtResource("2_x7wa8")
+
+[node name="smokes" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "smokes : s1 - s2"
+script = ExtResource("3_oextl")
+
+[node name="knifes" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "knifes : k1 - k2"
+script = ExtResource("4_capsw")
+
+[node name="beers" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "beers : b1 - b2"
+script = ExtResource("5_kihyh")
+
+[node name="maginfying-glass" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "magnifying glasses : m1 - m2"
+script = ExtResource("6_lrur8")
+
+[node name="bullets" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+button_mask = 3
+text = "bullets : x - y"
+alignment = 0
+script = ExtResource("1_lh7et")
