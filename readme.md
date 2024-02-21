@@ -9,7 +9,7 @@ input map
 full_bullets_increase -> tab
 full_bullets_decrease -> capslock
 empty_bullets_increase -> shift
-empty_bullets_decrease -> control
+empty_bullets_decrease -> ctrl
 ---
 my_knifes_increase -> k
 my_knifes_decrease -> l
@@ -31,11 +31,12 @@ my_smokes_decrease -> a
 dealer_smokes_increase -> r
 dealer_smokes_decrease -> e
 ---
-my_magnifying_glasses_increase -> 
-my_magnifying_glasses_decrease -> 
-dealer_magnifying_glasses_increase -> 
-dealer_magnifying_glasses_decrease -> 
+my_magnifying_glasses_increase -> m
+my_magnifying_glasses_decrease -> n
+dealer_magnifying_glasses_increase -> .
+dealer_magnifying_glasses_decrease -> ,
 ---
+settings -> esc
 ```
 
 </details>
