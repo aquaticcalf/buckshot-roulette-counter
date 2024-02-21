@@ -16,7 +16,26 @@ my_knifes_decrease -> l
 dealer_knifes_increase -> j
 dealer_knifes_decrease -> ;
 ---
-
+my_health_increase -> h
+my_health_decrease -> g
+dealer_health_increase -> f
+dealer_health_decrease -> d
+---
+my_beers_increase -> b
+my_beers_decrease -> v
+dealer_beers_increase -> c
+dealer_beers_decrease -> x
+---
+my_smokes_increase -> s
+my_smokes_decrease -> a
+dealer_smokes_increase -> r
+dealer_smokes_decrease -> e
+---
+my_magnifying_glasses_increase -> 
+my_magnifying_glasses_decrease -> 
+dealer_magnifying_glasses_increase -> 
+dealer_magnifying_glasses_decrease -> 
+---
 ```
 
 </details>
