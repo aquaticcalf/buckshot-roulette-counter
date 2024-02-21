@@ -1,5 +1,6 @@
-[gd_scene load_steps=7 format=3 uid="uid://cd70ns27tuu8f"]
+[gd_scene load_steps=8 format=3 uid="uid://cd70ns27tuu8f"]
 
+[ext_resource type="Script" path="res://counter.gd" id="1_0hcx5"]
 [ext_resource type="Script" path="res://bullets.gd" id="1_lh7et"]
 [ext_resource type="Script" path="res://health.gd" id="2_x7wa8"]
 [ext_resource type="Script" path="res://smokes.gd" id="3_oextl"]
@@ -8,6 +9,7 @@
 [ext_resource type="Script" path="res://maginfying-glass.gd" id="6_lrur8"]
 
 [node name="counter" type="Node2D"]
+script = ExtResource("1_0hcx5")
 
 [node name="HBoxContainer" type="VBoxContainer" parent="."]
 offset_left = 16.0
