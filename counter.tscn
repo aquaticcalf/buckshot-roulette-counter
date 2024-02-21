@@ -40,9 +40,7 @@ layout_mode = 2
 text = "magnifying glasses : m1 - m2"
 script = ExtResource("6_lrur8")
 
-[node name="bullets" type="Button" parent="HBoxContainer"]
+[node name="bullets" type="Label" parent="HBoxContainer"]
 layout_mode = 2
-button_mask = 3
 text = "bullets : x - y"
-alignment = 0
 script = ExtResource("1_lh7et")

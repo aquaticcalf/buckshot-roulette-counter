@@ -1,16 +1,17 @@
 extends Label
 
+var my_magnifying_glasses = 0
+var dealer_magnifying_glasses = 0
 
-var my_magnifying_glass = 0
-var dealer_magnifying_glass = 0
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	self.text = str("magnifying_glasses: ", my_magnifying_glasses, " - ", dealer_magnifying_glasses)	
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	if Input.is_action_just_released("magnifying_glass_increase"): my_magnifying_glass = my_magnifying_glass + 1
-	self.text = str("magnifying_glass: ", my_magnifying_glass, " - ", dealer_magnifying_glass)
-	if Input.is_action_just_released("magnifying_glass_decrease"): dealer_magnifying_glass = dealer_magnifying_glass + 1
-	self.text = str("magnifying_glass: ", my_magnifying_glass, " - ", dealer_magnifying_glass)
+	if Input.is_action_just_released("my_magnifying_glasses_increase"): my_magnifying_glasses = my_magnifying_glasses + 1
+	self.text = str("magnifying_glasses: ", my_magnifying_glasses, " - ", dealer_magnifying_glasses)
+	if Input.is_action_just_released("my_magnifying_glasses_decrease"): my_magnifying_glasses = my_magnifying_glasses - 1
+	self.text = str("magnifying_glasses: ", my_magnifying_glasses, " - ", dealer_magnifying_glasses)
+	if Input.is_action_just_released("dealer_magnifying_glasses_increase"): dealer_magnifying_glasses = dealer_magnifying_glasses + 1
+	self.text = str("magnifying_glasses: ", my_magnifying_glasses, " - ", dealer_magnifying_glasses)
+	if Input.is_action_just_released("dealer_magnifying_glasses_decrease"): dealer_magnifying_glasses = dealer_magnifying_glasses - 1
+	self.text = str("magnifying_glasses: ", my_magnifying_glasses, " - ", dealer_magnifying_glasses)
