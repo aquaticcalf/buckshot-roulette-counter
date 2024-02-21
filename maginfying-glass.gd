@@ -8,10 +8,10 @@ func _ready():
 
 func _process(delta):
 	if Input.is_action_just_released("my_magnifying_glasses_increase"): my_magnifying_glasses = my_magnifying_glasses + 1
-	self.text = str("magnifying_glasses: ", my_magnifying_glasses, " - ", dealer_magnifying_glasses)
+	self.text = str("magnifying glasses: ", my_magnifying_glasses, " - ", dealer_magnifying_glasses)
 	if Input.is_action_just_released("my_magnifying_glasses_decrease"): my_magnifying_glasses = my_magnifying_glasses - 1
-	self.text = str("magnifying_glasses: ", my_magnifying_glasses, " - ", dealer_magnifying_glasses)
+	self.text = str("magnifying glasses: ", my_magnifying_glasses, " - ", dealer_magnifying_glasses)
 	if Input.is_action_just_released("dealer_magnifying_glasses_increase"): dealer_magnifying_glasses = dealer_magnifying_glasses + 1
-	self.text = str("magnifying_glasses: ", my_magnifying_glasses, " - ", dealer_magnifying_glasses)
+	self.text = str("magnifying glasses: ", my_magnifying_glasses, " - ", dealer_magnifying_glasses)
 	if Input.is_action_just_released("dealer_magnifying_glasses_decrease"): dealer_magnifying_glasses = dealer_magnifying_glasses - 1
-	self.text = str("magnifying_glasses: ", my_magnifying_glasses, " - ", dealer_magnifying_glasses)
+	self.text = str("magnifying glasses: ", my_magnifying_glasses, " - ", dealer_magnifying_glasses)

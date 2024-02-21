@@ -11,9 +11,15 @@ config_version=5
 [application]
 
 config/name="buckshot-roulette-counter"
+config/description="do not ask what this is, idek"
+config/version="1.0.0"
 run/main_scene="res://counter.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://counter.png"
+
+[autoload]
+
+Previous="*res://previous.gd"
 
 [display]
 
