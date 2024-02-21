@@ -1,4 +1,4 @@
-do not ask what this is, idek
+# buckshot-roulette-counter 
 
 <details>
 <summary>
