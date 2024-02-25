@@ -40,3 +40,7 @@ settings -> esc
 ```
 
 </details>
+
+
+> [!Note]
+> the ability to change these defaults using the gui has not yet been implimented
