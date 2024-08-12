@@ -1,9 +1,15 @@
-# buckshot-roulette-counter 
+## Buckshot Roulette Counter
+
+[![randown](https://aqclf.xyz/randown/randown.svg)](https://aqclf.xyz/randown?username=aquaticcalf&reponame=buckshot-roulette-counter)
+
+### Overview
+
+Buckshot Roulette Counter is a tool designed to help you keep track of various game elements such as bullets, knives, health, beers, smokes, and magnifying glasses for both the player and the dealer.
+
+### Input Map
 
 <details>
-<summary>
-input map
-</summary>
+<summary>Click to expand</summary>
 
 ```
 full_bullets_increase -> tab
@@ -43,4 +49,13 @@ settings -> esc
 
 
 > [!Note]
-> the ability to change these defaults using the gui has not yet been implimented
+> the ability to change these defaults using the gui has not yet been implemented, however you can change them in the `project.godot` file
+
+## Features
+
+- Track full and empty bullets
+- Track knives for both player and dealer
+- Track health for both player and dealer
+- Track beers for both player and dealer
+- Track smokes for both player and dealer
+- Track magnifying glasses for both player and dealer
